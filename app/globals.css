@@ -1,26 +1,104 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&display=swap');
+/* The Blinking Cursor Logic */
+.modern-cursor {
+  display: inline-block;
+  width: 4px;
+  height: 1em;
+  background-color: black;
+  margin-left: 8px;
+  vertical-align: middle;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* The Premium Bean Buttons */
+.btn-primary {
+background-color: #111;
+  color: white;
+  padding: 1.1rem 2.8rem; /* Slightly larger padding for a luxury feel */
+  border-radius: 9999px;
+  font-weight: 500;       /* Medium weight is softer than Semi-bold */
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em; /* Breathable letters */
+  transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); /* Match the soft JS ease */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Very subtle soft shadow */
+}
+
+.btn-secondary {
+background-color: transparent;
+  color: #111;
+  padding: 1.1rem 2.8rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Thinner, softer border */
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+transform: translateY(-2px);
+  background-color: #000;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  background-color: #f9f9f9;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+/* This creates invisible gradients at the top and bottom of the screen 
+   to fade the text in and out as it scrolls. */
+.focus-vignette {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 80%,
+    white 100%
+  );
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 1. The Global Aesthetic */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* This makes the scroll feel more 'expensive' and less jumpy */
+  scroll-behavior: smooth;
+}
+
+/* 2. Selection Style (The 'Kick') */
+::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* 3. Hide Scrollbar (Optional but recommended for the Gallery look) */
+/* This keeps the screen clean so the 'Hollow Progress Bar' is the only indicator */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
