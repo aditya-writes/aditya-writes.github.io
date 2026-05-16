@@ -130,64 +130,32 @@ export default function HeroPage() {
           alignItems: 'center'
         }}
       >
-        <Link href="/about" style={{ textDecoration: 'none' }}>
-          <div 
-            style={{ 
-              backgroundColor: 'black', 
-              color: 'white',
-              borderRadius: '100px',
-              padding: '16px 44px', 
-              
-              // Font Updates: Applied Cormorant Garamond Italic for total alignment
-              fontFamily: '"Cormorant Garamond", serif',
-              fontStyle: 'italic',
-              fontSize: '17px',
-              fontWeight: '600',
-              letterSpacing: '0.03em',
-              
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              whiteSpace: 'nowrap',
-              textAlign: 'center',
-              minWidth: '160px', 
-              boxSizing: 'border-box',
-              cursor: 'pointer'
-            }}
-          >
-            About Me
-          </div>
-        </Link>
-        
-        <Link href="/works" style={{ textDecoration: 'none' }}>
-          <div 
-            style={{ 
-              backgroundColor: 'white', 
-              color: 'black', 
-              border: '1px solid rgba(0,0,0,0.15)',
-              borderRadius: '100px',
-              padding: '16px 44px', 
-              
-              // Font Updates: Applied Cormorant Garamond Italic for total alignment
-              fontFamily: '"Cormorant Garamond", serif',
-              fontStyle: 'italic',
-              fontSize: '17px',
-              fontWeight: '600',
-              letterSpacing: '0.03em',
-              
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              whiteSpace: 'nowrap',
-              textAlign: 'center',
-              minWidth: '160px', 
-              boxSizing: 'border-box',
-              cursor: 'pointer'
-            }}
-          >
-            My Works
-          </div>
-        </Link>
+       
+<Link href="/about" style={{ textDecoration: 'none' }}>
+  <div 
+    className="hero-btn" 
+    style={{ 
+      backgroundColor: 'black', 
+      color: 'white' 
+    }}
+  >
+    About Me
+  </div>
+</Link>
+
+
+<Link href="/works" style={{ textDecoration: 'none' }}>
+  <div 
+    className="hero-btn" 
+    style={{ 
+      backgroundColor: 'white', 
+      color: 'black', 
+      border: '1px solid rgba(0,0,0,0.15)' 
+    }}
+  >
+    My Works
+  </div>
+</Link>
       </motion.div>
     </main>
   );

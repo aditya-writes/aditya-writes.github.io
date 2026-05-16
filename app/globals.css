@@ -113,3 +113,33 @@ body {
     height: 18vh; /* Keeps your spacious, perfect layout on desktop */
   }
 }
+/* Paste this at the very bottom of app/globals.css */
+.hero-btn {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  /* SMARTPHONE SIZES (Clean, compact pills) */
+  padding: 10px 28px;
+  font-size: 14px;
+  min-width: 110px;
+}
+
+@media (min-width: 768px) {
+  .hero-btn {
+    /* DESKTOP SIZES (The grand architectural footprint) */
+    padding: 16px 44px;
+    font-size: 17px;
+    min-width: 160px;
+  }
+}
