@@ -49,62 +49,135 @@ export default function PersonaPage() {
       {/* TYPOGRAPHY & CONTENT CONTAINER */}
       <div style={{ maxWidth: '750px', margin: '0 auto', position: 'relative', zIndex: 20 }}>
         
-        {/* HIGH CONTRAST BOLD TITLE */}
+        {/* SECTION 1: TITLE */}
         <h1 style={{ 
           fontFamily: '"Cormorant Garamond", serif',
           fontStyle: 'italic',
           fontSize: 'clamp(2.5rem, 8vw, 4.5rem)', 
-          fontWeight: '700', // Locked to bold jet-black
+          fontWeight: '700', 
           color: '#000000',
           marginBottom: '45px',
           lineHeight: '1.1',
           letterSpacing: '-0.01em'
         }}>
-          My Persona
+          Beyond What Meets the Eye
         </h1>
         
-        {/* HIGH CONTRAST TEXT BLOCK STACK */}
+        {/* SECTION 1: BODY TEXT */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', marginBottom: '60px' }}>
+          <p style={{ 
+            fontFamily: '"Cormorant Garamond", serif', 
+            fontSize: '21px', 
+            lineHeight: '1.8', 
+            textAlign: 'justify', // Corrected text justification property
+            color: '#000000', 
+            letterSpacing: '0.01em'
+          }}>
+            I see myself as a person who is drawn to details that usually don’t grab much attention. 
+            Whether it be the pacing of a narrative, the tone hidden beneath conversation, or other 
+            elements that shape the larger experience, I am always interested in what lies beneath 
+            the surface. This instinct is used on a daily basis to find out why certain ideas resonate 
+            and what makes clarity win against excess. I strongly believe that it is attention to detail 
+            that separates ordinary work from the one that feels thoughtfully constructed. 
+          </p>
+        </div>
+
+        {/* SECTION 2: TITLE */}
+        <h1 style={{ 
+          fontFamily: '"Cormorant Garamond", serif',
+          fontStyle: 'italic',
+          fontSize: 'clamp(2.5rem, 8vw, 4.5rem)', 
+          fontWeight: '700', 
+          color: '#000000',
+          marginBottom: '45px',
+          lineHeight: '1.1',
+          letterSpacing: '-0.01em'
+        }}>
+          The Habit That Stayed
+        </h1>
+
+        {/* SECTION 2: BODY TEXT */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', marginBottom: '60px' }}>
+          <p style={{ 
+            fontFamily: '"Cormorant Garamond", serif', 
+            fontSize: '21px', 
+            lineHeight: '1.8',
+            textAlign: 'justify', // Corrected text justification property
+            color: '#000000', 
+            letterSpacing: '0.01em'
+          }}>
+            Relationship with literature is not limited to books alone. Enjoying storytelling 
+            in many forms is my interest, which includes novels, poetry, music, films, essays, 
+            and even long-form conversations that reveal something meaningful about people and 
+            the world. I think it's mainly because what intrigues me is not the medium but the 
+            exceptional ability of a story to leave a lasting impression through perspective or 
+            even silence. Most of the way I observe, think, and communicate has been shaped by 
+            the exploration of these varying aspects. 
+          </p>
+        </div>
+
+        {/* SECTION 3: TITLE */}
+        <h1 style={{ 
+          fontFamily: '"Cormorant Garamond", serif',
+          fontStyle: 'italic',
+          fontSize: 'clamp(2.5rem, 8vw, 4.5rem)', 
+          fontWeight: '700', 
+          color: '#000000',
+          marginBottom: '45px',
+          lineHeight: '1.1',
+          letterSpacing: '-0.01em'
+        }}>
+          A Delayed Recognition
+        </h1>
+
+        {/* SECTION 3: BODY TEXT */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', marginBottom: '60px' }}>
+          <p style={{ 
+            fontFamily: '"Cormorant Garamond", serif', 
+            fontSize: '21px', 
+            lineHeight: '1.8',
+            textAlign: 'justify', // Corrected text justification property
+            color: '#000000', 
+            letterSpacing: '0.01em'
+          }}>
+            I have worked as a web developer and ABAP developer in the past, but writing 
+            was always a part of my daily routine. I had some clients to write for throughout 
+            my journey. Despite prevailing zeal for storytelling, I viewed creative work as less 
+            significant than development (though I enjoyed writing more). This is the main reason 
+             why I delayed my willingness to identify as a writer. But some recent situations 
+             changed my perception significantly, and I care less about what others will think. 
+          </p>
+        </div>
+
+        {/* SECTION 4: TITLE */}
+        <h1 style={{ 
+          fontFamily: '"Cormorant Garamond", serif',
+          fontStyle: 'italic',
+          fontSize: 'clamp(2.5rem, 8vw, 4.5rem)', 
+          fontWeight: '700', 
+          color: '#000000',
+          marginBottom: '45px',
+          lineHeight: '1.1',
+          letterSpacing: '-0.01em'
+        }}>
+          Proving the Power of Words
+        </h1>
+
+        {/* SECTION 4: BODY TEXT */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
           <p style={{ 
-            fontFamily: '"Cormorant Garamond", serif', // Fixed font alignment
-            fontSize: '21px', // Scaled up slightly for gorgeous editorial body sizing
-            lineHeight: '1.8', 
-            color: '#000000', // Deep stark black for maximum readability contrast
-            letterSpacing: '0.01em'
-          }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-            fugiat nulla pariatur.
-          </p>
-          
-          <p style={{ 
-            fontFamily: '"Cormorant Garamond", serif',
+            fontFamily: '"Cormorant Garamond", serif', 
             fontSize: '21px', 
-            lineHeight: '1.8', 
-            color: '#000000',
+            lineHeight: '1.8',
+            textAlign: 'justify', // Corrected text justification property
+            color: '#000000', 
             letterSpacing: '0.01em'
           }}>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-            deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus 
-            error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-            dicta sunt explicabo.
-          </p>
-
-          <p style={{ 
-            fontFamily: '"Cormorant Garamond", serif',
-            fontSize: '21px', 
-            lineHeight: '1.8', 
-            color: '#000000',
-            letterSpacing: '0.01em'
-          }}>
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
-            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
-            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et 
-            dolore magnam aliquam quaerat voluptatem.
+            I focus on adding substance to the internet through writing that can hold attention 
+            and educate without relying on visuals and short-term distractions. To me, reading 
+            is still the best experience that rewards patience, and it is the dimension where focus, 
+            understanding, and imagination work together at their highest level. And what better way 
+            to express the learnings from reading than writing!
           </p>
         </div>
         
