@@ -4,13 +4,11 @@ import { motion, useScroll, useTransform, useSpring, AnimatePresence } from 'fra
 import Link from 'next/link';
 
 // DATA ARRAY
+// Replace your existing categories array with this list
 const categories = [
-  { title: "My Persona", slug: "persona", tags: ["Design", "Personal"] },
-  { title: "The Library", slug: "library", tags: ["Books", "Culture"] },
-  { title: "Cinema", slug: "cinema", tags: ["Media", "Culture"] },
-  { title: "World View", slug: "world-view", tags: ["Tech", "Society"] },
-  { title: "Hobbies", slug: "hobbies", tags: ["Personal", "Life"] },
-  { title: "The Future", slug: "the-future", tags: ["Tech", "Design"] }
+  { title: "My Persona", slug: "persona" },
+  { title: "Cinema", slug: "cinema" },
+  { title: "Why This Website", slug: "why-this-website" },
 ];
 
 const ALL_TAGS = ["All", "Tech", "Design", "Culture", "Personal"];
