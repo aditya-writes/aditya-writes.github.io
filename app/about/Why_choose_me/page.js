@@ -75,7 +75,7 @@ export default function WhyChooseMePage() {
             letterSpacing: '0.01em',
             margin: 0
           }}>
-            Having spent seven years in this craft, I no longer think of writing as one skill but treat it as a discipline that needs to be learned for every audience, every industry, and every voice that the brand needs to sound like[cite: 2]. This range did not happen by accident but resulted from thousands of pieces I wrote across formats and industries that hardly overlap[cite: 2].
+            Having spent seven years in this craft, I no longer think of writing as one skill but treat it as a discipline that needs to be learned for every audience, every industry, and every voice that the brand needs to sound like. This range did not happen by accident but resulted from thousands of pieces I wrote across formats and industries that hardly overlap.
           </p>
 
           <h2 style={{ 
@@ -101,7 +101,7 @@ export default function WhyChooseMePage() {
             letterSpacing: '0.01em',
             margin: 0
           }}>
-            In my career so far, I have moved from part-time to full-time, and throughout it, I’ve personally analyzed more than 11 million words through Grammarly alone, not to mention this number does not count the substantial volumes written and refined on clients’ own paid accounts across numerous projects[cite: 2]. Each and every one of these words was revised, scrutinized, and held to a standard before they reached the target readers[cite: 2].
+            In my career so far, I have moved from part-time to full-time, and throughout it, I’ve personally analyzed more than 11 million words through Grammarly alone, not to mention this number does not count the substantial volumes written and refined on clients’ own paid accounts across numerous projects. Each and every one of these words was revised, scrutinized, and held to a standard before they reached the target readers.
           </p>
 
           <h2 style={{ 
@@ -127,7 +127,7 @@ export default function WhyChooseMePage() {
             letterSpacing: '0.01em',
             margin: 0
           }}>
-            Throughout these years, I have written blogs, press releases, articles, and social media captions by the thousands for industries that demand differing instincts[cite: 2]:
+            Throughout these years, I have written blogs, press releases, articles, and social media captions by the thousands for industries that demand differing instincts:
           </p>
 
           <p style={{ 
@@ -271,7 +271,7 @@ export default function WhyChooseMePage() {
             letterSpacing: '0.01em',
             margin: 0
           }}>
-            My experience is not limited to commercial SEO writing only because I have also written thesis-level academic work — an area with strict conventions, from Harvard-style referencing to correct <em>et al.</em> usage in citations[cite: 2]. It is a whole different discipline as compared to blog writing with zero room for looseness[cite: 2]. Experience in these is the main reason why precision is not optional in anything that I write[cite: 2].
+            My experience is not limited to commercial SEO writing only because I have also written thesis-level academic work — an area with strict conventions, from Harvard-style referencing to correct <em>et al.</em> usage in citations. It is a whole different discipline as compared to blog writing with zero room for looseness. Experience in these is the main reason why precision is not optional in anything that I write.
           </p>
 
           <h2 style={{ 
@@ -297,7 +297,7 @@ export default function WhyChooseMePage() {
             letterSpacing: '0.01em',
             margin: 0
           }}>
-            Underneath these client works lies a novella-in-progress, <em>The Kings We End Up Making</em> — the type of writing with no brief, no deadline, and no one to answer to but the story itself[cite: 2]. This is a very different muscle as compared to commercial copy[cite: 2]. But I am building it with the same instinct: paying close attention to get the words precisely right, even if no one is checking[cite: 2]. I will be uploading it chapter-wise on this website in the My Works/Story section[cite: 2].
+            Underneath these client works lies a novella-in-progress, <em>The Kings We End Up Making</em> — the type of writing with no brief, no deadline, and no one to answer to but the story itself. This is a very different muscle as compared to commercial copy. But I am building it with the same instinct: paying close attention to get the words precisely right, even if no one is checking. I will be uploading it chapter-wise on this website in the My Works/Story section.
           </p>
 
           <h2 style={{ 
@@ -323,7 +323,7 @@ export default function WhyChooseMePage() {
             letterSpacing: '0.01em',
             margin: 0
           }}>
-            Many writers specialise because they think that switching registers is difficult — moving from one technical web dev explainer to the lyrical tone that a luxury train journey deserves needs very different instincts, and my past seven years have been spent building that same[cite: 2]. I have written for so many industries that very few briefs surprise me anymore[cite: 2].
+            Many writers specialise because they think that switching registers is difficult — moving from one technical web dev explainer to the lyrical tone that a luxury train journey deserves needs very different instincts, and my past seven years have been spent building that same. I have written for so many industries that very few briefs surprise me anymore.
           </p>
 
           <p style={{ 
@@ -335,7 +335,7 @@ export default function WhyChooseMePage() {
             letterSpacing: '0.01em',
             margin: 0
           }}>
-            If you need content that is technically sound, emotionally resonant, and highly on-brand — no matter how demanding or niche the subject is — that is the exact work I have been doing, at scale, for years[cite: 2].
+            If you need content that is technically sound, emotionally resonant, and highly on-brand — no matter how demanding or niche the subject is — that is the exact work I have been doing, at scale, for years.
           </p>
 
         </div>
