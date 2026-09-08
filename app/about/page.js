@@ -9,6 +9,7 @@ const categories = [
   { title: "My Persona", slug: "persona" },
   { title: "Cinema", slug: "cinema" },
   { title: "Why This Website", slug: "why-this-website" },
+  { title: "Why Choose Me", slug: "Why_choose_me" },
 ];
 
 const ALL_TAGS = ["All", "Tech", "Design", "Culture", "Personal"];

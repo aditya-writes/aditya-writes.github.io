@@ -7,6 +7,10 @@ const works = [
   { 
     title: "The Illusion of Autonomy", 
     slug: "the-illusion-of-autonomy" 
+  },
+  { 
+    title: "Calm Your Fingers Calm Your Mind", 
+    slug: "Calm_your_fingers_calm_your_mind" 
   }
 ];
 
