@@ -10,7 +10,7 @@ const works = [
   },
   { 
     title: "Calm Your Fingers, Calm Your Mind", 
-    slug: "calm-your-fingers-calm-your-mind" 
+    slug: "Calm_your_fingers_calm_your_mind" 
   }
 ];
 
